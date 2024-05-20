@@ -256,6 +256,7 @@ footer {
 }
 
 /* Large devices: laptops and desktops, (1200 px and up)*/
+
 @media screen and (min-width: 1200px) {
 
     /*Reasons section */
