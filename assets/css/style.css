@@ -218,6 +218,15 @@ footer {
     }
 }
 
+/* Media query: tablets and larger (576 px and up)*/
+@media screen and (min-width: 576px) {
+
+    #photos {
+        column-count: 2; 
+        column-gap: 0;
+    }
+}
+
 /* Media query: tablets and larger (768 px and up)*/
 @media screen and (min-width: 768px) {
 
@@ -280,6 +289,13 @@ footer {
         text-align: end;
         align-self: flex-end;
     }
+/*Gallery*/
+#photos{
+    column-count: 4;
+    
+
+}
+
 }
 
 
