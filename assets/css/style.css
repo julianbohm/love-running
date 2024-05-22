@@ -68,7 +68,7 @@ nav {
     background-color: #ffffff;
     width: 100%;
     left: 0;
-    padding-top: 0 1rem;
+    padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
@@ -202,7 +202,7 @@ hr {
 }
 
 /*Footer*/
-footer {
+
     #social-network {
         text-align: center;
         padding: 20px 0;
@@ -216,7 +216,7 @@ footer {
         padding: 5%;
         color: #3a3a3a;
     }
-}
+
 /* Main content */
 main {
     /* Enlarge main element to push footer down*/
@@ -276,7 +276,7 @@ main {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    ...
+
 
     /* Form */
     #signup {
@@ -399,7 +399,7 @@ main {
     /*Reasons section */
     #benefits {
         display: flex;
-        direction: row;
+        flex-direction: row;
     }
 
     #benefits>div {
